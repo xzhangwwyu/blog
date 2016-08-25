@@ -7,7 +7,7 @@
 &emsp;<li ><font size="5"><a href="https://github.com/kennethreitz/requests">requests</a></font></li>
 
 ##c++
-&emsp;<li ><font size="5"><a href="http://www.boost.org/doc/libs/1_53_0/libs/regex/doc/html/index.html">requests</a></font></li>
+&emsp;<li ><font size="5"><a href="http://www.boost.org/doc/libs/1_53_0/libs/regex/doc/html/index.html">Regex</a></font></li>
 
 ##c
 &emsp;<li ><font size="5"><a href="https://github.com/EZLippi/Tinyhttpd">Tinyhttpd</a></font></li>
