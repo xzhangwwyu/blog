@@ -1,8 +1,8 @@
-#背景
+# 背景
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;国内苦防火墙久矣，正直aws有一年的免费套餐，选国外服务器，搭建翻墙服务，何乐不为
 
-#步骤
+# 步骤
 [shadowsocks](https://github.com/shadowsocks/shadowsocks-libev) 翻墙利器，考虑到aws免费套餐太弱，使用C语言版本
 
 安装依赖
@@ -72,7 +72,7 @@ esac
 ```
 命令行使用shadowsocks，参考privoxy
 
-#参考
+# 参考
 <lo>
 <li>https://my.oschina.net/zk875/blog/853410
 <lo>
