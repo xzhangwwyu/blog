@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+src_dir="/build/src/"
+
+version="1.13.6.1"
+cd /var/tmp/
+#wget https://openresty.org/download/openresty-${version}.tar.gz
+tar -zxf ${src_dir}openresty-${version}.tar.gz
+cd openresty-${version}
+./configure && make && make install
+cd ../
+rm -rf openresty*

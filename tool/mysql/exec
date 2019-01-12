@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+mysql -h 127.0.0.1 -P 3306 -uroot -p52b005fe8ae56dde565efb798bc02c83 -D$1 < "$2"
