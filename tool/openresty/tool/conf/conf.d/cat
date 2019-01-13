@@ -1,0 +1,15 @@
+server {
+	
+	listen 80;
+
+	set $root_dir /opt/tiger/openresty/tool/;
+
+	server_name cat.test.org;
+	add_header x-request-id "$request_id";
+
+	root $root_dir/static;
+	error_log /var/log/nginx/cat.error.log;
+	access_log /var/log/nginx/cat.access.log main;
+
+	include include/test/*;
+}
