@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cd $(dirname $0)
+
+src_dir="/build/src/"
+
+version="1.11.5"
+cd /var/tmp/
+#wget https://openresty.org/download/openresty-${version}.tar.gz
+go_1_4="go1.11.5.linux-amd64"
+mkdir ${go_1_4}
+tar -zxf ${src_dir}${go_1_4}.tar.gz -C ${go_1_4} --strip-components=1
+mv /var/tmp/${go_1_4} /usr/local/go
+
